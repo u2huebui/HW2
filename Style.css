@@ -3,6 +3,98 @@ body
 {
 background-color: AliceBlue;
 color: black;
-font-family:"Georgia";
-font-size:30px;
+font-size:20px;
+}
+h3 {
+	font-variant: small-caps;
+	text-decoration: underline;
+}
+.me{
+	
+	width:90%;
+	float:left;
+	padding:10px;
+}
+
+.thing{
+	width:30%;
+	float:left;
+	padding:10px;
+	border:none;
+}
+/* used to center the photos on the page */
+.pixel{
+	width:100%;
+	text-align:center;
+}
+
+/* Div formatting for photos */
+.meme {
+	border: solid 1px black; 
+	background: white;
+	color:black;
+	text-align:center;
+	font-size:.75em;
+	width: 310px;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	display:inline-block;
+
+}
+/* Photo formatting */
+.ao {
+	width: 310px;
+}
+.co {
+	width:210px;
+	
+	
+}
+
+
+/* Formatting for the menu bar */
+#menubar {
+	background-color: BurlyWood;
+	width:100%;
+	overflow:hidden;
+}
+/* Formatting for top navigation buttons on the web site */
+ul#navlist { 
+	list-style-type:none; 
+	margin: 0 auto; 
+	padding: 0px;
+}
+
+#navlist li { 
+	display:block; 
+	float:left; 
+	font-weight:bold; 
+	text-align:center; 
+	font-variant:small-caps;
+	padding:10px; 
+}
+#navlist a { padding: 10px 10px; }
+
+		
+#navlist a:link, #navlist a:visited { 
+	color: white; 
+	background-color: DarkBlue ; 
+	text-decoration: none; 
+	}
+
+#navlist a:hover { 
+	color: black; 
+	background-color: Chartreuse; 
+	text-decoration: none; 
+	}
+	/* used on resume.html to center */
+.resume {
+	text-align:left;
+	Margin:3px;
+	padding:40px;
+}
+	.bo {
+	margin:0 auto; 
+	width:70%; 
 }
